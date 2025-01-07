@@ -78,8 +78,32 @@ function doPost (e) {
 }
 </pre>
 
-
-
+<h2>3. Jalankan fungsi pengaturan</h2>
+<ul>
+<li>Selanjutnya, buka Run > Run Function > initialSetupuntuk menjalankan fungsi ini.</li>
+<li>Dalam Authorization Requireddialog, klik Review Permissions.</li>
+<li>Masuk atau pilih akun Google yang terkait dengan proyek ini.</li>
+<li>Anda akan melihat dialog yang mengatakan Hi {Your Name}, Submit Form to Google Sheets wants to...</li>
+<li>Klik Allow
+</ul>
+<h2>4. Tambahkan pemicu proyek baru</h2>
+<ul>
+<li>Klik Edit > Current project’s triggers.</li>
+<li>Pada dialog klikNo triggers set up. Click here to add one now.</li>
+<li>Pada dropdown pilihdoPost</li>
+<li>Atur bidang peristiwa ke From spreadsheetdanOn form submit</li>
+<li>Kemudian klik Save</li>
+</ul>
+<h2>5. Publikasikan proyek sebagai aplikasi web</h2>
+<ul>
+<li>Klik Publish > Deploy as web app….</li>
+<li>Atur dan masukkan Project Versionke kolom input di bawah.Newinitial version</li>
+<li>Biarkan Execute the app as:diatur ke Me(your@address.com).</li>
+<li>Untuk Who has access to the app:memilih Anyone, even anonymous.</li>
+<li>Klik Deploy.</li>
+<li>Pada jendela pop-up, salin Current web app URLdari dialog.</li>
+<li>Dan klik OK.</li>
+</ul>
 
 
 
