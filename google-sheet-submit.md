@@ -36,7 +36,6 @@
 <li>Tempelkan skrip berikut di tempatnya dan Save</li>
 </ul>
 <pre>
-  <code>
 var sheetName = 'Sheet1'
 var scriptProp = PropertiesService.getScriptProperties()
 
@@ -77,7 +76,6 @@ function doPost (e) {
     lock.releaseLock()
   }
 }
-  </code>
 </pre>
 
 
