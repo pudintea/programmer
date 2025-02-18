@@ -1,6 +1,11 @@
 php
 =====
-$action = anchor('lembur/edit/'.$cus->id_lembur,' ',array('title'=>'Edit', 'class'=>'glyphicon glyphicon-edit')).' | '. 
-					anchor('lembur/delete/'.$cus->id_lembur,' ',array("title"=>"Hapus", "class"=>"glyphicon glyphicon-trash", "onclick" =>"if( ! confirm('Apakah anda yakin akan menghapus data ini..??')) return false")) ;
+$action = anchor('lembur/edit/'.$cus->id_lembur,' ',array('title'=>'Edit', 'class'=>'glyphicon glyphicon-edit')).' | ';
+$action .= anchor('lembur/delete/'.$cus->id_lembur,' ',array("title"=>"Hapus", "class"=>"glyphicon glyphicon-trash", "onclick" =>"if( ! confirm('Apakah anda yakin akan menghapus data ini..??')) return false")) ;
 
 <a href="#" onclick="if( ! confirm('Apakah anda yakin akan menghapus data ini..??')) return false">Hapus Data</a>
+
+
+
+
+================ PUDIN.MY.ID ===========================
